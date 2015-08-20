@@ -1,0 +1,39 @@
+{
+
+  "name": "symfomany/canicule",
+
+  "description": "SUper Classe :)",
+
+  "keywords": ["3WA", "Canicule"],
+
+  "license": "MIT",
+
+  "authors": [
+
+    {
+
+      "name": "Julien Boyer",
+
+      "email": "julien@meetserious.com"
+
+    }
+
+  ],
+
+  "require": {
+
+    "php": ">=5.4.0"
+
+  },
+
+  "autoload": {
+
+    "psr-0": {
+
+      "": "src/"
+
+    }
+
+  }
+
+}
