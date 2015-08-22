@@ -6,7 +6,7 @@ namespace App;
 class Actors
 {
 
-    const enable = 25;
+    const enable = 35;
     const disabled = true;
 
     public function __construct(){
