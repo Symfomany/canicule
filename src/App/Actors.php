@@ -6,8 +6,12 @@ namespace App;
 class Actors
 {
 
-    const enable = 45;
+    const enable = 15;
     const disabled = false;
+
+    protected $email;
+    protected $nom;
+    protected $prenom;
 
     public function __construct(){
 
