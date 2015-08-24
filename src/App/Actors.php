@@ -3,8 +3,12 @@
 namespace App;
 
 
-class Actors
+use App\Interfaces\VisibleInterface;
+
+class Actors implements VisibleInterface
 {
+
+
 
     const enable = 15;
     const disabled = false;
@@ -13,6 +17,10 @@ class Actors
     protected $nom;
     protected $prenom;
 
+    public function getVisible()
+    {
+        return true;
+    }
     public function __construct(){
 
     }
